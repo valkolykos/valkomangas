@@ -100,7 +100,7 @@
                     <div class="p-3">
                         <h3 class="font-bold text-sm line-clamp-1 group-hover:text-purple-400 transition">Mangá Exemplo 2</h3>
                         <p class="text-xs text-purple-400 font-medium mt-1">Capítulo 105</p>
-                        <p class="text-[10px] text-zinc-500">Há 5 hours</p>
+                        <p class="text-[10px] text-zinc-500">Há 5 horas</p>
                     </div>
                 </div>
 
@@ -148,10 +148,10 @@
             if (slideAtual > totalSlides) slideAtual = 1;
             if (slideAtual < 1) slideAtual = totalSlides;
 
-            const novo = document.getElementById('slide' + slideAtual);
-            if(novo) {
-                novo.classList.replace('opacity-0', 'opacity-100');
-                novo.classList.replace('hidden', 'block');
+            const logoNovo = document.getElementById('slide' + slideAtual);
+            if(logoNovo) {
+                logoNovo.classList.replace('opacity-0', 'opacity-100');
+                logoNovo.classList.replace('hidden', 'block');
             }
         }
 
